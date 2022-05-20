@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #FEE7F0; */
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .child_1 {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .child_2 {
+    padding-top: 20px;
+ }
+
+ .enter {
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+h2 {
+    color: red;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+.about {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+.store {
+    /* margin-left: 20px; */
+    margin-right: 20px;
+}
+
+.comp {
+    margin-left: 20px;
+}
+
+.app {
+   padding: 20px;
+}
+
+.app__btns {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page__wrapper {
+    display: flex;
+    margin-top: 15px;
+}
+
+.page {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.current-page {
+    border: 2px solid teal;
+}
+
+.observer {
+    height: 30px;
+    background: green;
+}
+
+.post-list-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.post-list-enter-active,
+.post-list-leave-active {
+    transition: all 0.4s ease;
+}
+
+.post-list-enter-from,
+.post-list-leave-to {
+    opacity: 0;
+    transform: translateX(130px);
+}
+
+.post-list-move {
+    transition: transform 0.4s ease;
+}
+
+.post {
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post__btns1 {
+    display: flex;
+}
+
+.post__btns2 {
+    display: flex;
+}
+
+.my-button{
+    margin-top: 15px;
+    align-self: flex-end;
+}
+
+.navbar {
+    height: 50px;
+    background-color: lightgray;
+    box-shadow: 2px 2px 4px gray;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.navbar__btns {
+    margin-left: auto;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid teal;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+.dialog {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: flex;
+}
+
+.dialog__content {
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    min-height: 50px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background: none;
+    color: teal;
+    border: 1px solid teal;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.app__btns {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page__wrapper {
+    display: flex;
+    margin-top: 15px;
+}
+
+.page {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.current-page {
+    border: 2px solid teal;
+}
+
+.observer {
+    height: 30px;
+    background: green;
+}
+
+.app__btns {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page__wrapper {
+    display: flex;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.page {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.current-page {
+    border: 2px solid teal;
+}
+
+.observer {
+  height: 30px;
+  background: green;
+}
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 56px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    h2 {
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 576px) and (max-height: 300px) {
+    h2 {
+        background-color: #faeedd;
+    }
+}
